@@ -1,6 +1,7 @@
 from typing import Union
 
 from flask import Blueprint, jsonify, request, Response
+from typing import Optional
 from marshmallow import ValidationError
 
 from builder import build_query
@@ -17,7 +18,7 @@ def perform_query() -> Union[Response, tuple[Response, int]]:
     except ValidationError as error:
         return jsonify(error.messages), 400
 
-    result = None
+    result: Optional[list[str]] = None
     for query in validated_data['queries']:
         result = build_query(
             cmd=query['cmd'],
