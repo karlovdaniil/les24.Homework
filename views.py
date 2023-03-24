@@ -28,3 +28,8 @@ def perform_query() -> Union[Response, tuple[Response, int]]:
         )
 
     return jsonify(result)
+
+
+@main_bp.route('/ping', methods=['GET'])
+def ping():
+    return 'pong'
