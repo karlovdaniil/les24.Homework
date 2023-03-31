@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b02c522-67b7-491f-8002-86f7715ad0db" name="Changes" comment="Add action for git4">
+    <list default="true" id="4b02c522-67b7-491f-8002-86f7715ad0db" name="Changes" comment="Add action for git5">
+      <change afterPath="$PROJECT_DIR$/docker-compose-ci.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/action.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/action.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +130,7 @@
       <workItem from="1679268224260" duration="7394000" />
       <workItem from="1679921564078" duration="12581000" />
       <workItem from="1680041070671" duration="1173000" />
-      <workItem from="1680042253839" duration="4901000" />
+      <workItem from="1680042253839" duration="7623000" />
     </task>
     <task id="LOCAL-00001" summary="Finish project">
       <created>1679270344350</created>
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680254809568</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add action for git5">
+      <created>1680277812897</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680277812897</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +229,8 @@
     <MESSAGE value="Add action for git2" />
     <MESSAGE value="Add action for git3" />
     <MESSAGE value="Add action for git4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add action for git4" />
+    <MESSAGE value="Add action for git5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add action for git5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/les24_Homework$Flask__run_py_.coverage" NAME="Flask (run.py) Coverage Results" MODIFIED="1679989266459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
