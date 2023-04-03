@@ -48,5 +48,6 @@ def test_db():
     return jsonify(
         {
             'result': result,
+            'new_result': '123'
         }
     )
