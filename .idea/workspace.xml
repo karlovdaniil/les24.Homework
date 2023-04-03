@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b02c522-67b7-491f-8002-86f7715ad0db" name="Changes" comment="Auto deploy" />
+    <list default="true" id="4b02c522-67b7-491f-8002-86f7715ad0db" name="Changes" comment="Auto deploy">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/action.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/action.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +129,7 @@
       <workItem from="1679268224260" duration="7394000" />
       <workItem from="1679921564078" duration="12581000" />
       <workItem from="1680041070671" duration="1173000" />
-      <workItem from="1680042253839" duration="11864000" />
+      <workItem from="1680042253839" duration="15094000" />
     </task>
     <task id="LOCAL-00001" summary="Finish project">
       <created>1679270344350</created>
@@ -247,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680513491490</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Auto deploy">
+      <created>1680536755367</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680536755367</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

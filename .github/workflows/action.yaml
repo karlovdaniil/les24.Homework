@@ -36,12 +36,11 @@ jobs:
           target: "deploy"
           strip_components: 1
       - name: run
-        uses: appleboy/scp-action@master
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_PASSWORD }}
-          target: "deploy"
           script: |
             cd deploy
             echo ${{ secrets.SERVER_PASSWORD }} | sudo -S docker-compose up -d
